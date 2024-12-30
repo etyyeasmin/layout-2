@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans",sans-serif;
+
+}
+body{
+    background-image: url(./images\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Container{
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.header{
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgba(248, 208, 78, 0.17);
+    z-index: 1;
+
+}
+.header h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(67, 59, 47);
+    font-style: italic;
+    z-index: 1;
+}
+.navber{
+   
+   padding-left: 10px;
+   
+    
+}
+
+
+.nav_manu{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  
+}
+
+.nav_manu li{
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav_manu a{
+    color:black
+    gap: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
+.content{
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.content h2{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.card_section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.card_section img{
+    gap: 10px;
+    border: 1px solid whitesmoke;
+}
+.main{
+    display:flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.main p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    font-style: italic;
+    font-style: italic;
+    margin-left: 60px;
+    background-color: black;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.card_container{
+    max-width: 100%;
+    margin-top: 20px;
+
+
+}
+.btn_1{
+
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    color: blanchedalmond;
+    background-color: black;
+    font-style: italic;
+}
+
+.footer{
+    background-color:  rgba(248, 208, 78, 0.17);;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.btn_2{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    justify-content: center;
+    font-style: italic;
+}
